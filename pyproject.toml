@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "image-redact"
+version = "0.1.0"
+description = ""
+authors = ["Jegatheesan"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytesseract = "^0.3.7"
+spacy = "^3.0.6"
+Pillow = "^8.2.0"
+
+[tool.poetry.dependencies.en_core_web_lg]
+url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.0.0/en_core_web_lg-3.0.0.tar.gz"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
