@@ -15,8 +15,8 @@ class ImageRedact():
     def _remove_trailing_punctuation(self, text):
         punc = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
         text = text.strip()
-        if text[-1] in punc:
-            return text[:-1]
+        # if text[-1] in punc:
+        #     return text[:-1]
         return text
 
 
